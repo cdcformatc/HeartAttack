@@ -32,7 +32,8 @@ heart.click(function() {
       }, 250);
     });
     cooldown = true;
-    $.get(url, function(data) {});
+    $.get(url_voxpop, function(data) {});
+    $.get(url_format, function(data) {});
 
     setTimeout(function() {
       cooldown = false;
